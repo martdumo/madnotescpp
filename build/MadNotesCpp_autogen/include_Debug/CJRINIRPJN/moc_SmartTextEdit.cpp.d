@@ -1,5 +1,6 @@
 F:/Proyectos/MadNotesCpp/build/MadNotesCpp_autogen/include_Debug/CJRINIRPJN/moc_SmartTextEdit.cpp: F:/Proyectos/MadNotesCpp/include/editor/SmartTextEdit.h \
   F:/Proyectos/MadNotesCpp/include/editor/CustomTextDocument.h \
+  F:/Qt/6.10.1/msvc2022_64/include/QtCore/QRegularExpression \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/QUrl \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/q17memory.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/q20functional.h \
@@ -77,6 +78,7 @@ F:/Proyectos/MadNotesCpp/build/MadNotesCpp_autogen/include_Debug/CJRINIRPJN/moc_
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qprocessordetection.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qrect.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qrefcount.h \
+  F:/Qt/6.10.1/msvc2022_64/include/QtCore/qregularexpression.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qscopedpointer.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qscopeguard.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qset.h \

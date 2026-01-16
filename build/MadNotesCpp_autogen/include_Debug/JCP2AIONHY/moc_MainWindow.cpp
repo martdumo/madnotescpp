@@ -45,7 +45,11 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "item",
         "createNewNote",
         "saveCurrentDocument",
-        "deleteCurrentNote"
+        "deleteCurrentNote",
+        "triggerFilter",
+        "handleAnchorClicked",
+        "QUrl",
+        "url"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -59,6 +63,12 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'deleteCurrentNote'
         QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'triggerFilter'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'handleAnchorClicked'
+        QtMocHelpers::SlotData<void(const QUrl &)>(9, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 10, 11 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -86,6 +96,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->createNewNote(); break;
         case 2: _t->saveCurrentDocument(); break;
         case 3: _t->deleteCurrentNote(); break;
+        case 4: _t->triggerFilter(); break;
+        case 5: _t->handleAnchorClicked((*reinterpret_cast<std::add_pointer_t<QUrl>>(_a[1]))); break;
         default: ;
         }
     }
@@ -110,14 +122,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 6;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 6;
     }
     return _id;
 }

@@ -1,4 +1,5 @@
 F:/Proyectos/MadNotesCpp/build/MadNotesCpp_autogen/include_Debug/JCP2AIONHY/moc_MainWindow.cpp: F:/Proyectos/MadNotesCpp/include/ui/MainWindow.h \
+  F:/Qt/6.10.1/msvc2022_64/include/QtCore/QUrl \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/q17memory.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/q20functional.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/q20iterator.h \
@@ -120,6 +121,7 @@ F:/Proyectos/MadNotesCpp/build/MadNotesCpp_autogen/include_Debug/JCP2AIONHY/moc_
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qtversionchecks.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qtypeinfo.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qtypes.h \
+  F:/Qt/6.10.1/msvc2022_64/include/QtCore/qurl.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qutf8stringview.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qvariant.h \
   F:/Qt/6.10.1/msvc2022_64/include/QtCore/qvarlengtharray.h \

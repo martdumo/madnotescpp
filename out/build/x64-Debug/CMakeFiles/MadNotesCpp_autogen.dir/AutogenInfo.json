@@ -408,9 +408,21 @@
 			null
 		],
 		[
+			"F:/Proyectos/MadNotesCpp/include/editor/LinkHighlighter.h",
+			"MU",
+			"CJRINIRPJN/moc_LinkHighlighter.cpp",
+			null
+		],
+		[
 			"F:/Proyectos/MadNotesCpp/include/editor/SmartTextEdit.h",
 			"MU",
 			"CJRINIRPJN/moc_SmartTextEdit.cpp",
+			null
+		],
+		[
+			"F:/Proyectos/MadNotesCpp/include/ui/FindReplaceDialog.h",
+			"MU",
+			"JCP2AIONHY/moc_FindReplaceDialog.cpp",
 			null
 		],
 		[
@@ -495,8 +507,10 @@
 			"MU",
 			null
 		],
+		[ "F:/Proyectos/MadNotesCpp/src/editor/LinkHighlighter.cpp", "MU", null ],
 		[ "F:/Proyectos/MadNotesCpp/src/editor/SmartTextEdit.cpp", "MU", null ],
 		[ "F:/Proyectos/MadNotesCpp/src/main.cpp", "MU", null ],
+		[ "F:/Proyectos/MadNotesCpp/src/ui/FindReplaceDialog.cpp", "MU", null ],
 		[ "F:/Proyectos/MadNotesCpp/src/ui/MainWindow.cpp", "MU", null ],
 		[ "F:/Proyectos/MadNotesCpp/src/ui/ThemeEngine.cpp", "MU", null ]
 	],

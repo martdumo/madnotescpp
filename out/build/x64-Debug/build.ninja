@@ -89,6 +89,16 @@ build CMakeFiles\MadNotesCpp.dir\src\editor\CustomTextDocument.cpp.obj: CXX_COMP
   TARGET_COMPILE_PDB = CMakeFiles\MadNotesCpp.dir\
   TARGET_PDB = MadNotesCpp.pdb
 
+build CMakeFiles\MadNotesCpp.dir\src\editor\LinkHighlighter.cpp.obj: CXX_COMPILER__MadNotesCpp_unscanned_Debug F$:\Proyectos\MadNotesCpp\src\editor\LinkHighlighter.cpp || cmake_object_order_depends_target_MadNotesCpp
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IF:\Proyectos\MadNotesCpp\out\build\x64-Debug\MadNotesCpp_autogen\include -IF:\Proyectos\MadNotesCpp\include -IF:\Proyectos\MadNotesCpp\include\core -IF:\Proyectos\MadNotesCpp\include\ui -IF:\Proyectos\MadNotesCpp\include\editor -IF:\Proyectos\MadNotesCpp\include\utils -external:IF:\Qt\6.10.1\msvc2022_64\include\QtWidgets -external:IF:\Qt\6.10.1\msvc2022_64\include -external:IF:\Qt\6.10.1\msvc2022_64\include\QtCore -external:IF:\Qt\6.10.1\msvc2022_64\mkspecs\win32-msvc -external:IF:\Qt\6.10.1\msvc2022_64\include\QtGui -external:IF:\Qt\6.10.1\msvc2022_64\include\QtNetwork -external:W0
+  OBJECT_DIR = CMakeFiles\MadNotesCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\MadNotesCpp.dir\src\editor
+  TARGET_COMPILE_PDB = CMakeFiles\MadNotesCpp.dir\
+  TARGET_PDB = MadNotesCpp.pdb
+
 build CMakeFiles\MadNotesCpp.dir\src\editor\SmartTextEdit.cpp.obj: CXX_COMPILER__MadNotesCpp_unscanned_Debug F$:\Proyectos\MadNotesCpp\src\editor\SmartTextEdit.cpp || cmake_object_order_depends_target_MadNotesCpp
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -106,6 +116,16 @@ build CMakeFiles\MadNotesCpp.dir\src\main.cpp.obj: CXX_COMPILER__MadNotesCpp_uns
   INCLUDES = -IF:\Proyectos\MadNotesCpp\out\build\x64-Debug\MadNotesCpp_autogen\include -IF:\Proyectos\MadNotesCpp\include -IF:\Proyectos\MadNotesCpp\include\core -IF:\Proyectos\MadNotesCpp\include\ui -IF:\Proyectos\MadNotesCpp\include\editor -IF:\Proyectos\MadNotesCpp\include\utils -external:IF:\Qt\6.10.1\msvc2022_64\include\QtWidgets -external:IF:\Qt\6.10.1\msvc2022_64\include -external:IF:\Qt\6.10.1\msvc2022_64\include\QtCore -external:IF:\Qt\6.10.1\msvc2022_64\mkspecs\win32-msvc -external:IF:\Qt\6.10.1\msvc2022_64\include\QtGui -external:IF:\Qt\6.10.1\msvc2022_64\include\QtNetwork -external:W0
   OBJECT_DIR = CMakeFiles\MadNotesCpp.dir
   OBJECT_FILE_DIR = CMakeFiles\MadNotesCpp.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\MadNotesCpp.dir\
+  TARGET_PDB = MadNotesCpp.pdb
+
+build CMakeFiles\MadNotesCpp.dir\src\ui\FindReplaceDialog.cpp.obj: CXX_COMPILER__MadNotesCpp_unscanned_Debug F$:\Proyectos\MadNotesCpp\src\ui\FindReplaceDialog.cpp || cmake_object_order_depends_target_MadNotesCpp
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IF:\Proyectos\MadNotesCpp\out\build\x64-Debug\MadNotesCpp_autogen\include -IF:\Proyectos\MadNotesCpp\include -IF:\Proyectos\MadNotesCpp\include\core -IF:\Proyectos\MadNotesCpp\include\ui -IF:\Proyectos\MadNotesCpp\include\editor -IF:\Proyectos\MadNotesCpp\include\utils -external:IF:\Qt\6.10.1\msvc2022_64\include\QtWidgets -external:IF:\Qt\6.10.1\msvc2022_64\include -external:IF:\Qt\6.10.1\msvc2022_64\include\QtCore -external:IF:\Qt\6.10.1\msvc2022_64\mkspecs\win32-msvc -external:IF:\Qt\6.10.1\msvc2022_64\include\QtGui -external:IF:\Qt\6.10.1\msvc2022_64\include\QtNetwork -external:W0
+  OBJECT_DIR = CMakeFiles\MadNotesCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\MadNotesCpp.dir\src\ui
   TARGET_COMPILE_PDB = CMakeFiles\MadNotesCpp.dir\
   TARGET_PDB = MadNotesCpp.pdb
 
@@ -137,7 +157,7 @@ build CMakeFiles\MadNotesCpp.dir\src\ui\ThemeEngine.cpp.obj: CXX_COMPILER__MadNo
 #############################################
 # Link the executable MadNotesCpp.exe
 
-build MadNotesCpp.exe: CXX_EXECUTABLE_LINKER__MadNotesCpp_Debug CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\mocs_compilation.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\DocumentArchitect.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\VaultManager.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\CustomTextDocument.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\SmartTextEdit.cpp.obj CMakeFiles\MadNotesCpp.dir\src\main.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\MainWindow.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\ThemeEngine.cpp.obj | F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Widgetsd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Guid.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Networkd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Cored.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6EntryPointd.lib || MadNotesCpp_autogen MadNotesCpp_autogen_timestamp_deps
+build MadNotesCpp.exe: CXX_EXECUTABLE_LINKER__MadNotesCpp_Debug CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\mocs_compilation.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\DocumentArchitect.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\VaultManager.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\CustomTextDocument.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\LinkHighlighter.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\SmartTextEdit.cpp.obj CMakeFiles\MadNotesCpp.dir\src\main.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\FindReplaceDialog.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\MainWindow.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\ThemeEngine.cpp.obj | F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Widgetsd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Guid.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Networkd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Cored.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6EntryPointd.lib || MadNotesCpp_autogen MadNotesCpp_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
