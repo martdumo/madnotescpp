@@ -1,0 +1,2999 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+      Compilaci├│n iniciada a las 16/1/2026 08:41:30.
+      
+      Proyecto "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "F:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe" "F:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:00.62
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/Proyectos/MadNotesCpp/build/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Windows/AtlasModules/lld-link.com"
+      - "C:/Windows/AtlasModules/lld-link.exe"
+      - "C:/Windows/AtlasModules/lld-link"
+      - "C:/Windows/AtlasModules/Tools/lld-link.com"
+      - "C:/Windows/AtlasModules/Tools/lld-link.exe"
+      - "C:/Windows/AtlasModules/Tools/lld-link"
+      - "C:/Windows/AtlasModules/Scripts/lld-link.com"
+      - "C:/Windows/AtlasModules/Scripts/lld-link.exe"
+      - "C:/Windows/AtlasModules/Scripts/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/lld-link.com"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/lld-link.exe"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/mad/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/mad/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/mad/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Windows/AtlasModules/mt.com"
+      - "C:/Windows/AtlasModules/mt.exe"
+      - "C:/Windows/AtlasModules/mt"
+      - "C:/Windows/AtlasModules/Tools/mt.com"
+      - "C:/Windows/AtlasModules/Tools/mt.exe"
+      - "C:/Windows/AtlasModules/Tools/mt"
+      - "C:/Windows/AtlasModules/Scripts/mt.com"
+      - "C:/Windows/AtlasModules/Scripts/mt.exe"
+      - "C:/Windows/AtlasModules/Scripts/mt"
+      - "C:/Program Files/PowerShell/7/mt.com"
+      - "C:/Program Files/PowerShell/7/mt.exe"
+      - "C:/Program Files/PowerShell/7/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/mt.com"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/mt.exe"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/mad/AppData/Roaming/npm/mt.com"
+      - "C:/Users/mad/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/mad/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:581 (enable_language)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:554 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Windows/AtlasModules/rc.com"
+      - "C:/Windows/AtlasModules/rc.exe"
+      - "C:/Windows/AtlasModules/rc"
+      - "C:/Windows/AtlasModules/Tools/rc.com"
+      - "C:/Windows/AtlasModules/Tools/rc.exe"
+      - "C:/Windows/AtlasModules/Tools/rc"
+      - "C:/Windows/AtlasModules/Scripts/rc.com"
+      - "C:/Windows/AtlasModules/Scripts/rc.exe"
+      - "C:/Windows/AtlasModules/Scripts/rc"
+      - "C:/Program Files/PowerShell/7/rc.com"
+      - "C:/Program Files/PowerShell/7/rc.exe"
+      - "C:/Program Files/PowerShell/7/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/rc.com"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/rc.exe"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/mad/AppData/Roaming/npm/rc.com"
+      - "C:/Users/mad/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/mad/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/rc.com"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/rc.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/rc"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/rc.com"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/rc.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/rc"
+      - "C:/Program Files (x86)/MadNotesCpp/rc.com"
+      - "C:/Program Files (x86)/MadNotesCpp/rc.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-s12d74"
+      binary: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-s12d74"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-s12d74'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_91beb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+        Compilaci├│n iniciada a las 16/1/2026 08:41:31.
+        
+        Proyecto "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s12d74\\cmTC_91beb.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_91beb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s12d74\\Debug\\".
+          Creando directorio "cmTC_91beb.dir\\Debug\\cmTC_91beb.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_91beb.dir\\Debug\\cmTC_91beb.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_91beb.dir\\Debug\\cmTC_91beb.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "F:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_91beb.dir\\Debug\\\\" /Fd"cmTC_91beb.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_91beb.dir\\Debug\\\\" /Fd"cmTC_91beb.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s12d74\\Debug\\cmTC_91beb.exe" /INCREMENTAL /ILK:"cmTC_91beb.dir\\Debug\\cmTC_91beb.ilk" /NOLOGO /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-s12d74/Debug/cmTC_91beb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-s12d74/Debug/cmTC_91beb.lib" /MACHINE:X64  /machine:x64 cmTC_91beb.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_91beb.vcxproj -> F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s12d74\\Debug\\cmTC_91beb.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s12d74\\Debug\\cmTC_91beb.exe" "F:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_91beb.dir\\Debug\\cmTC_91beb.tlog\\cmTC_91beb.write.1u.tlog" "cmTC_91beb.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_91beb.dir\\Debug\\cmTC_91beb.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_91beb.dir\\Debug\\cmTC_91beb.tlog\\cmTC_91beb.lastbuildstate".
+        Compilaci├│n del proyecto terminada "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s12d74\\cmTC_91beb.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake:99 (check_cxx_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-vh3jw3"
+      binary: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-vh3jw3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-vh3jw3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dec8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+        Compilaci├│n iniciada a las 16/1/2026 08:41:31.
+        
+        Proyecto "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\cmTC_dec8a.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_dec8a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\Debug\\".
+          Creando directorio "cmTC_dec8a.dir\\Debug\\cmTC_dec8a.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_dec8a.dir\\Debug\\cmTC_dec8a.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_dec8a.dir\\Debug\\cmTC_dec8a.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "F:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_dec8a.dir\\Debug\\\\" /Fd"cmTC_dec8a.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_dec8a.dir\\Debug\\\\" /Fd"cmTC_dec8a.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\src.cxx"
+          src.cxx
+        F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\cmTC_dec8a.vcxproj]
+        Compilaci├│n del proyecto terminada "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\cmTC_dec8a.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\cmTC_dec8a.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vh3jw3\\cmTC_dec8a.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.19
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-o7p0up"
+      binary: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-o7p0up"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-o7p0up'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26a3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+        Compilaci├│n iniciada a las 16/1/2026 08:41:32.
+        
+        Proyecto "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\cmTC_26a3c.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_26a3c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\Debug\\".
+          Creando directorio "cmTC_26a3c.dir\\Debug\\cmTC_26a3c.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_26a3c.dir\\Debug\\cmTC_26a3c.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_26a3c.dir\\Debug\\cmTC_26a3c.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "F:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_26a3c.dir\\Debug\\\\" /Fd"cmTC_26a3c.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_26a3c.dir\\Debug\\\\" /Fd"cmTC_26a3c.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\Debug\\cmTC_26a3c.exe" /INCREMENTAL /ILK:"cmTC_26a3c.dir\\Debug\\cmTC_26a3c.ilk" /NOLOGO /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-o7p0up/Debug/cmTC_26a3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-o7p0up/Debug/cmTC_26a3c.lib" /MACHINE:X64  /machine:x64 cmTC_26a3c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\cmTC_26a3c.vcxproj]
+        Compilaci├│n del proyecto terminada "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\cmTC_26a3c.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\cmTC_26a3c.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7p0up\\cmTC_26a3c.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-ozp46n"
+      binary: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-ozp46n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-ozp46n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a52e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+        Compilaci├│n iniciada a las 16/1/2026 08:41:32.
+        
+        Proyecto "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\cmTC_a52e3.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_a52e3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\Debug\\".
+          Creando directorio "cmTC_a52e3.dir\\Debug\\cmTC_a52e3.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_a52e3.dir\\Debug\\cmTC_a52e3.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_a52e3.dir\\Debug\\cmTC_a52e3.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "F:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_a52e3.dir\\Debug\\\\" /Fd"cmTC_a52e3.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_a52e3.dir\\Debug\\\\" /Fd"cmTC_a52e3.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\Debug\\cmTC_a52e3.exe" /INCREMENTAL /ILK:"cmTC_a52e3.dir\\Debug\\cmTC_a52e3.ilk" /NOLOGO /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-ozp46n/Debug/cmTC_a52e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-ozp46n/Debug/cmTC_a52e3.lib" /MACHINE:X64  /machine:x64 cmTC_a52e3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\cmTC_a52e3.vcxproj]
+        Compilaci├│n del proyecto terminada "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\cmTC_a52e3.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\cmTC_a52e3.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozp46n\\cmTC_a52e3.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6CoreTools"
+    configs:
+      -
+        filename: "Qt6CoreToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6coretools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6CoreTools"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/.."
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6GuiTools"
+    configs:
+      -
+        filename: "Qt6GuiToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6guitools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6GuiTools"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/.."
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6WidgetsTools"
+    configs:
+      -
+        filename: "Qt6WidgetsToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6widgetstools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6WidgetsTools"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/.."
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-wbzb4y"
+      binary: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-wbzb4y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-wbzb4y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_174f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+        Compilaci├│n iniciada a las 16/1/2026 08:41:32.
+        
+        Proyecto "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\cmTC_174f6.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_174f6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\Debug\\".
+          Creando directorio "cmTC_174f6.dir\\Debug\\cmTC_174f6.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_174f6.dir\\Debug\\cmTC_174f6.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_174f6.dir\\Debug\\cmTC_174f6.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "F:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_174f6.dir\\Debug\\\\" /Fd"cmTC_174f6.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"F:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /std:c++17 /Fo"cmTC_174f6.dir\\Debug\\\\" /Fd"cmTC_174f6.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\Debug\\cmTC_174f6.exe" /INCREMENTAL /ILK:"cmTC_174f6.dir\\Debug\\cmTC_174f6.ilk" /NOLOGO /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "F:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-wbzb4y/Debug/cmTC_174f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/Proyectos/MadNotesCpp/build/CMakeFiles/CMakeScratch/TryCompile-wbzb4y/Debug/cmTC_174f6.lib" /MACHINE:X64  /machine:x64 cmTC_174f6.dir\\Debug\\src.obj
+          cmTC_174f6.vcxproj -> F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\Debug\\cmTC_174f6.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\Debug\\cmTC_174f6.exe" "F:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_174f6.dir\\Debug\\cmTC_174f6.tlog\\cmTC_174f6.write.1u.tlog" "cmTC_174f6.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_174f6.dir\\Debug\\cmTC_174f6.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_174f6.dir\\Debug\\cmTC_174f6.tlog\\cmTC_174f6.lastbuildstate".
+        Compilaci├│n del proyecto terminada "F:\\Proyectos\\MadNotesCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbzb4y\\cmTC_174f6.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6EntryPointPrivate"
+    configs:
+      -
+        filename: "Qt6EntryPointPrivateConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6entrypointprivate-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6EntryPointPrivate"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/.."
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6EntryPointPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/qt6entrypointprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:3135 (find_program)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:29 (_qt_internal_setup_deploy_support)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:190 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "WINDEPLOYQT_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windeployqt"
+    candidate_directories:
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+    searched_directories:
+      - "F:/Qt/6.10.1/msvc2022_64/bin/windeployqt.com"
+    found: "F:/Qt/6.10.1/msvc2022_64/bin/windeployqt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Core"
+    configs:
+      -
+        filename: "Qt6CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6core-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Core"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/.."
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindVulkan.cmake:387 (find_path)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "/include/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/include/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+    searched_directories:
+      - "/include/vulkan/vulkan.h"
+      - "C:/Windows/System32/vulkan/vulkan.h"
+      - "C:/Windows/vulkan/vulkan.h"
+      - "C:/Windows/System32/wbem/vulkan/vulkan.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/vulkan/vulkan.h"
+      - "C:/Windows/System32/OpenSSH/vulkan/vulkan.h"
+      - "C:/Windows/AtlasModules/vulkan/vulkan.h"
+      - "C:/Windows/AtlasModules/Tools/vulkan/vulkan.h"
+      - "C:/Windows/AtlasModules/Scripts/vulkan/vulkan.h"
+      - "C:/Program Files/PowerShell/7/vulkan/vulkan.h"
+      - "C:/Program Files/Git/cmd/vulkan/vulkan.h"
+      - "C:/Program Files/nodejs/vulkan/vulkan.h"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/vulkan/vulkan.h"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vulkan/vulkan.h"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/vulkan/vulkan.h"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/vulkan/vulkan.h"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
+      - "C:/Users/mad/AppData/Roaming/npm/vulkan/vulkan.h"
+      - "C:/Program Files/include/vulkan/vulkan.h"
+      - "C:/Program Files/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/MadNotesCpp/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/MadNotesCpp/vulkan/vulkan.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindVulkan.cmake:394 (find_library)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "/lib/"
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/lib/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/"
+    searched_directories:
+      - "/lib/"
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/lib/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/MadNotesCpp/bin"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindVulkan.cmake:402 (find_program)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+    searched_directories:
+      - "/bin/glslc.com"
+      - "/bin/glslc.exe"
+      - "/bin/glslc"
+      - "C:/Windows/System32/glslc.com"
+      - "C:/Windows/System32/glslc.exe"
+      - "C:/Windows/System32/glslc"
+      - "C:/Windows/glslc.com"
+      - "C:/Windows/glslc.exe"
+      - "C:/Windows/glslc"
+      - "C:/Windows/System32/wbem/glslc.com"
+      - "C:/Windows/System32/wbem/glslc.exe"
+      - "C:/Windows/System32/wbem/glslc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Windows/System32/OpenSSH/glslc.com"
+      - "C:/Windows/System32/OpenSSH/glslc.exe"
+      - "C:/Windows/System32/OpenSSH/glslc"
+      - "C:/Windows/AtlasModules/glslc.com"
+      - "C:/Windows/AtlasModules/glslc.exe"
+      - "C:/Windows/AtlasModules/glslc"
+      - "C:/Windows/AtlasModules/Tools/glslc.com"
+      - "C:/Windows/AtlasModules/Tools/glslc.exe"
+      - "C:/Windows/AtlasModules/Tools/glslc"
+      - "C:/Windows/AtlasModules/Scripts/glslc.com"
+      - "C:/Windows/AtlasModules/Scripts/glslc.exe"
+      - "C:/Windows/AtlasModules/Scripts/glslc"
+      - "C:/Program Files/PowerShell/7/glslc.com"
+      - "C:/Program Files/PowerShell/7/glslc.exe"
+      - "C:/Program Files/PowerShell/7/glslc"
+      - "C:/Program Files/Git/cmd/glslc.com"
+      - "C:/Program Files/Git/cmd/glslc.exe"
+      - "C:/Program Files/Git/cmd/glslc"
+      - "C:/Program Files/nodejs/glslc.com"
+      - "C:/Program Files/nodejs/glslc.exe"
+      - "C:/Program Files/nodejs/glslc"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/glslc.com"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/glslc"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/glslc.com"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/glslc.exe"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/glslc.com"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/glslc.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/glslc"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/glslc.com"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/glslc.exe"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/glslc"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/glslc.com"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/glslc.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/glslc"
+      - "C:/Users/mad/AppData/Roaming/npm/glslc.com"
+      - "C:/Users/mad/AppData/Roaming/npm/glslc.exe"
+      - "C:/Users/mad/AppData/Roaming/npm/glslc"
+      - "C:/Program Files/bin/glslc.com"
+      - "C:/Program Files/bin/glslc.exe"
+      - "C:/Program Files/bin/glslc"
+      - "C:/Program Files/sbin/glslc.com"
+      - "C:/Program Files/sbin/glslc.exe"
+      - "C:/Program Files/sbin/glslc"
+      - "C:/Program Files/glslc.com"
+      - "C:/Program Files/glslc.exe"
+      - "C:/Program Files/glslc"
+      - "C:/Program Files (x86)/bin/glslc.com"
+      - "C:/Program Files (x86)/bin/glslc.exe"
+      - "C:/Program Files (x86)/bin/glslc"
+      - "C:/Program Files (x86)/sbin/glslc.com"
+      - "C:/Program Files (x86)/sbin/glslc.exe"
+      - "C:/Program Files (x86)/sbin/glslc"
+      - "C:/Program Files (x86)/glslc.com"
+      - "C:/Program Files (x86)/glslc.exe"
+      - "C:/Program Files (x86)/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslc"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/glslc.com"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/glslc.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/glslc"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/glslc.com"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/glslc.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/glslc"
+      - "C:/Program Files (x86)/MadNotesCpp/glslc.com"
+      - "C:/Program Files (x86)/MadNotesCpp/glslc.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/glslc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindVulkan.cmake:410 (find_program)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/AtlasModules/"
+      - "C:/Windows/AtlasModules/Tools/"
+      - "C:/Windows/AtlasModules/Scripts/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/mad/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/"
+      - "C:/Program Files (x86)/MadNotesCpp/"
+    searched_directories:
+      - "/bin/glslangValidator.com"
+      - "/bin/glslangValidator.exe"
+      - "/bin/glslangValidator"
+      - "C:/Windows/System32/glslangValidator.com"
+      - "C:/Windows/System32/glslangValidator.exe"
+      - "C:/Windows/System32/glslangValidator"
+      - "C:/Windows/glslangValidator.com"
+      - "C:/Windows/glslangValidator.exe"
+      - "C:/Windows/glslangValidator"
+      - "C:/Windows/System32/wbem/glslangValidator.com"
+      - "C:/Windows/System32/wbem/glslangValidator.exe"
+      - "C:/Windows/System32/wbem/glslangValidator"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.com"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.exe"
+      - "C:/Windows/System32/OpenSSH/glslangValidator"
+      - "C:/Windows/AtlasModules/glslangValidator.com"
+      - "C:/Windows/AtlasModules/glslangValidator.exe"
+      - "C:/Windows/AtlasModules/glslangValidator"
+      - "C:/Windows/AtlasModules/Tools/glslangValidator.com"
+      - "C:/Windows/AtlasModules/Tools/glslangValidator.exe"
+      - "C:/Windows/AtlasModules/Tools/glslangValidator"
+      - "C:/Windows/AtlasModules/Scripts/glslangValidator.com"
+      - "C:/Windows/AtlasModules/Scripts/glslangValidator.exe"
+      - "C:/Windows/AtlasModules/Scripts/glslangValidator"
+      - "C:/Program Files/PowerShell/7/glslangValidator.com"
+      - "C:/Program Files/PowerShell/7/glslangValidator.exe"
+      - "C:/Program Files/PowerShell/7/glslangValidator"
+      - "C:/Program Files/Git/cmd/glslangValidator.com"
+      - "C:/Program Files/Git/cmd/glslangValidator.exe"
+      - "C:/Program Files/Git/cmd/glslangValidator"
+      - "C:/Program Files/nodejs/glslangValidator.com"
+      - "C:/Program Files/nodejs/glslangValidator.exe"
+      - "C:/Program Files/nodejs/glslangValidator"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/glslangValidator.com"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/glslangValidator.exe"
+      - "F:/Windows Kits/10/Windows Performance Toolkit/glslangValidator"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/glslangValidator.com"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/glslangValidator.exe"
+      - "F:/Qt/6.10.1/msvc2022_64/bin/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslangValidator"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/glslangValidator.com"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/glslangValidator.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Python/Launcher/glslangValidator"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/glslangValidator.com"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/glslangValidator.exe"
+      - "C:/Users/mad/AppData/Local/Microsoft/WindowsApps/glslangValidator"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.com"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.exe"
+      - "C:/Users/mad/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator"
+      - "C:/Users/mad/AppData/Roaming/npm/glslangValidator.com"
+      - "C:/Users/mad/AppData/Roaming/npm/glslangValidator.exe"
+      - "C:/Users/mad/AppData/Roaming/npm/glslangValidator"
+      - "C:/Program Files/bin/glslangValidator.com"
+      - "C:/Program Files/bin/glslangValidator.exe"
+      - "C:/Program Files/bin/glslangValidator"
+      - "C:/Program Files/sbin/glslangValidator.com"
+      - "C:/Program Files/sbin/glslangValidator.exe"
+      - "C:/Program Files/sbin/glslangValidator"
+      - "C:/Program Files/glslangValidator.com"
+      - "C:/Program Files/glslangValidator.exe"
+      - "C:/Program Files/glslangValidator"
+      - "C:/Program Files (x86)/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bin/glslangValidator"
+      - "C:/Program Files (x86)/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/sbin/glslangValidator"
+      - "C:/Program Files (x86)/glslangValidator.com"
+      - "C:/Program Files (x86)/glslangValidator.exe"
+      - "C:/Program Files (x86)/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/glslangValidator"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/bin/glslangValidator"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/sbin/glslangValidator"
+      - "C:/Program Files (x86)/MadNotesCpp/glslangValidator.com"
+      - "C:/Program Files (x86)/MadNotesCpp/glslangValidator.exe"
+      - "C:/Program Files (x86)/MadNotesCpp/glslangValidator"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Gui"
+    configs:
+      -
+        filename: "Qt6GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Gui"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/.."
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Widgets"
+    configs:
+      -
+        filename: "Qt6WidgetsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6widgets-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Widgets"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6Network"
+    configs:
+      -
+        filename: "Qt6NetworkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6network-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Network"
+      search_paths:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "Qt6"
+    components:
+      -
+        name: "Widgets"
+        required: true
+        found: false
+      -
+        name: "Gui"
+        required: true
+        found: false
+      -
+        name: "Core"
+        required: true
+        found: false
+      -
+        name: "Network"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt6Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Proyectos/MadNotesCpp/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Tools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/AtlasModules/Scripts/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PowerShell/7/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Windows Kits/10/Windows Performance Toolkit/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "F:/Qt/6.10.1/msvc2022_64/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\WINDOWS\\AtlasModules"
+        - "C:\\WINDOWS\\AtlasModules\\Tools"
+        - "C:\\WINDOWS\\AtlasModules\\Scripts"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "F:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "F:\\Qt\\6.10.1\\msvc2022_64\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\mad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\mad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files (x86)/MadNotesCpp"
+      CMAKE_MODULE_PATH:
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6"
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+...

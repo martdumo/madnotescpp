@@ -1,0 +1,14 @@
+# ninja log v6
+12	198	7902681009212192	MadNotesCpp_autogen/timestamp	998fe480473cbbdf
+12	198	7902681009212192	MadNotesCpp_autogen/mocs_compilation.cpp	998fe480473cbbdf
+12	198	7902681009212192	F:/Proyectos/MadNotesCpp/out/build/x64-Debug/MadNotesCpp_autogen/timestamp	998fe480473cbbdf
+12	198	7902681009212192	F:/Proyectos/MadNotesCpp/out/build/x64-Debug/MadNotesCpp_autogen/mocs_compilation.cpp	998fe480473cbbdf
+204	1472	7902681009443847	CMakeFiles/MadNotesCpp.dir/src/core/DocumentArchitect.cpp.obj	a16b880060a1a78f
+213	1700	7902681009508606	CMakeFiles/MadNotesCpp.dir/src/main.cpp.obj	d78f2869ebeca7d
+211	1731	7902681009508606	CMakeFiles/MadNotesCpp.dir/src/editor/SmartTextEdit.cpp.obj	8c1bd66a5c174a44
+206	1810	7902681009508606	CMakeFiles/MadNotesCpp.dir/src/core/VaultManager.cpp.obj	5e41205e6d206b0d
+201	1823	7902681009443847	CMakeFiles/MadNotesCpp.dir/MadNotesCpp_autogen/mocs_compilation.cpp.obj	bad5ef4952f834ba
+219	1923	7902681009609540	CMakeFiles/MadNotesCpp.dir/src/ui/ThemeEngine.cpp.obj	c619ec3525eb5055
+208	1944	7902681009508606	CMakeFiles/MadNotesCpp.dir/src/editor/CustomTextDocument.cpp.obj	2b4f7950f7bfe4a0
+217	2353	7902681009609540	CMakeFiles/MadNotesCpp.dir/src/ui/MainWindow.cpp.obj	1f09033e467e9ad5
+2353	2892	7902681030956923	MadNotesCpp.exe	df20ee1c3ca3e811

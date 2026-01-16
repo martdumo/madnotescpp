@@ -1,0 +1,3 @@
+F:/Proyectos/MadNotesCpp/build/CMakeFiles/MadNotesCpp.dir
+F:/Proyectos/MadNotesCpp/build/CMakeFiles/ALL_BUILD.dir
+F:/Proyectos/MadNotesCpp/build/CMakeFiles/ZERO_CHECK.dir

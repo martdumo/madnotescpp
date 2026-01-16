@@ -1,0 +1,5 @@
+F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/MadNotesCpp.dir
+F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/MadNotesCpp_autogen_timestamp_deps.dir
+F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/MadNotesCpp_autogen.dir

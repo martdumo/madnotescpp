@@ -1,0 +1,10 @@
+^F:\PROYECTOS\MADNOTESCPP\BUILD\CMAKEFILES\D2533C106C215A0DDE46F1FF692619C3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Proyectos/MadNotesCpp -BF:/Proyectos/MadNotesCpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Proyectos/MadNotesCpp/build/MadNotesCpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
