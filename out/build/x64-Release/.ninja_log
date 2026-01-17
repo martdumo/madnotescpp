@@ -1,0 +1,20 @@
+# ninja log v6
+10	219	7903539731620927	MadNotesCpp_autogen/timestamp	9ca0e2472fee5129
+10	219	7903539731620927	MadNotesCpp_autogen/mocs_compilation.cpp	9ca0e2472fee5129
+10	219	7903539731620927	F:/Proyectos/MadNotesCpp/out/build/x64-Release/MadNotesCpp_autogen/timestamp	9ca0e2472fee5129
+10	219	7903539731620927	F:/Proyectos/MadNotesCpp/out/build/x64-Release/MadNotesCpp_autogen/mocs_compilation.cpp	9ca0e2472fee5129
+222	311	7903539732689249	MadNotesCpp_autogen/EWIEGA46WW/qrc_resources.cpp	3aa138a424cda7e5
+222	311	7903539732689249	F:/Proyectos/MadNotesCpp/out/build/x64-Release/MadNotesCpp_autogen/EWIEGA46WW/qrc_resources.cpp	3aa138a424cda7e5
+333	381	7903539732990908	CMakeFiles/MadNotesCpp.dir/madnotes.rc.res	1d88fdd259877db1
+335	1025	7903539733010856	CMakeFiles/MadNotesCpp.dir/MadNotesCpp_autogen/EWIEGA46WW/qrc_resources.cpp.obj	9b7336bd5ea2ec32
+324	1880	7903539732890382	CMakeFiles/MadNotesCpp.dir/src/main.cpp.obj	e7f59867814c6417
+326	1986	7903539732910377	CMakeFiles/MadNotesCpp.dir/src/ui/FindReplaceDialog.cpp.obj	77901fb40331ee72
+319	2030	7903539732850044	CMakeFiles/MadNotesCpp.dir/src/editor/LinkHighlighter.cpp.obj	bdeb10123c06df13
+331	2197	7903539732960446	CMakeFiles/MadNotesCpp.dir/src/ui/ThemeEngine.cpp.obj	4914e46543a1337a
+316	2237	7903539732810040	CMakeFiles/MadNotesCpp.dir/src/core/VaultManager.cpp.obj	39f4095d13159443
+318	2243	7903539732830044	CMakeFiles/MadNotesCpp.dir/src/editor/CustomTextDocument.cpp.obj	9f79d8cf0c8c3785
+314	2270	7903539732790119	CMakeFiles/MadNotesCpp.dir/src/core/DocumentArchitect.cpp.obj	609af5f3c5ac3492
+311	2287	7903539732759691	CMakeFiles/MadNotesCpp.dir/MadNotesCpp_autogen/mocs_compilation.cpp.obj	815ae22892b8abd9
+322	2316	7903539732870330	CMakeFiles/MadNotesCpp.dir/src/editor/SmartTextEdit.cpp.obj	928afbf01398c14e
+329	2801	7903539732930376	CMakeFiles/MadNotesCpp.dir/src/ui/MainWindow.cpp.obj	df30caa781cbc5ba
+2801	3214	7903539757656821	MadNotesCpp.exe	ab0d9f3d8c01524e

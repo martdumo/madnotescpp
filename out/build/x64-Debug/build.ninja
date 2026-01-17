@@ -149,6 +149,17 @@ build CMakeFiles\MadNotesCpp.dir\src\ui\ThemeEngine.cpp.obj: CXX_COMPILER__MadNo
   TARGET_COMPILE_PDB = CMakeFiles\MadNotesCpp.dir\
   TARGET_PDB = MadNotesCpp.pdb
 
+build CMakeFiles\MadNotesCpp.dir\madnotes.rc.res: RC_COMPILER__MadNotesCpp_unscanned_Debug F$:\Proyectos\MadNotesCpp\madnotes.rc || cmake_object_order_depends_target_MadNotesCpp
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\MadNotesCpp.dir\madnotes.rc.res.d
+  FLAGS = -DWIN32 -D_DEBUG
+  INCLUDES = -I F:\Proyectos\MadNotesCpp\out\build\x64-Debug\MadNotesCpp_autogen\include -I F:\Proyectos\MadNotesCpp\include -I F:\Proyectos\MadNotesCpp\include\core -I F:\Proyectos\MadNotesCpp\include\ui -I F:\Proyectos\MadNotesCpp\include\editor -I F:\Proyectos\MadNotesCpp\include\utils -I F:\Qt\6.10.1\msvc2022_64\include\QtWidgets -I F:\Qt\6.10.1\msvc2022_64\include -I F:\Qt\6.10.1\msvc2022_64\include\QtCore -I F:\Qt\6.10.1\msvc2022_64\mkspecs\win32-msvc -I F:\Qt\6.10.1\msvc2022_64\include\QtGui -I F:\Qt\6.10.1\msvc2022_64\include\QtNetwork
+  OBJECT_DIR = CMakeFiles\MadNotesCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\MadNotesCpp.dir
+  TARGET_COMPILE_PDB = CMakeFiles\MadNotesCpp.dir\
+  TARGET_PDB = MadNotesCpp.pdb
+
 build CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\EWIEGA46WW\qrc_resources.cpp.obj: CXX_COMPILER__MadNotesCpp_unscanned_Debug F$:\Proyectos\MadNotesCpp\out\build\x64-Debug\MadNotesCpp_autogen\EWIEGA46WW\qrc_resources.cpp || cmake_object_order_depends_target_MadNotesCpp
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -167,7 +178,7 @@ build CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\EWIEGA46WW\qrc_resources.cp
 #############################################
 # Link the executable MadNotesCpp.exe
 
-build MadNotesCpp.exe: CXX_EXECUTABLE_LINKER__MadNotesCpp_Debug CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\mocs_compilation.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\DocumentArchitect.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\VaultManager.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\CustomTextDocument.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\LinkHighlighter.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\SmartTextEdit.cpp.obj CMakeFiles\MadNotesCpp.dir\src\main.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\FindReplaceDialog.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\MainWindow.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\ThemeEngine.cpp.obj CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\EWIEGA46WW\qrc_resources.cpp.obj | F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Widgetsd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Guid.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Networkd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Cored.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6EntryPointd.lib || MadNotesCpp_autogen MadNotesCpp_autogen_timestamp_deps
+build MadNotesCpp.exe: CXX_EXECUTABLE_LINKER__MadNotesCpp_Debug CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\mocs_compilation.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\DocumentArchitect.cpp.obj CMakeFiles\MadNotesCpp.dir\src\core\VaultManager.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\CustomTextDocument.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\LinkHighlighter.cpp.obj CMakeFiles\MadNotesCpp.dir\src\editor\SmartTextEdit.cpp.obj CMakeFiles\MadNotesCpp.dir\src\main.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\FindReplaceDialog.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\MainWindow.cpp.obj CMakeFiles\MadNotesCpp.dir\src\ui\ThemeEngine.cpp.obj CMakeFiles\MadNotesCpp.dir\madnotes.rc.res CMakeFiles\MadNotesCpp.dir\MadNotesCpp_autogen\EWIEGA46WW\qrc_resources.cpp.obj | F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Widgetsd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Guid.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Networkd.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6Cored.lib F$:\Qt\6.10.1\msvc2022_64\lib\Qt6EntryPointd.lib || MadNotesCpp_autogen MadNotesCpp_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows

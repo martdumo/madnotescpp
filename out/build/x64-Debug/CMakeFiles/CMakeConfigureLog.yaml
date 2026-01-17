@@ -2951,8 +2951,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3nc6e9"
-      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3nc6e9"
+      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t83fny"
+      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t83fny"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2966,11 +2966,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3nc6e9'
+        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t83fny'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_50902
-        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_50902.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_50902.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_50902.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_50902.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_50902.exe /implib:cmTC_50902.lib /pdb:cmTC_50902.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4ec09
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_4ec09.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_4ec09.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_4ec09.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4ec09.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_4ec09.exe /implib:cmTC_4ec09.lib /pdb:cmTC_4ec09.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -3002,12 +3002,12 @@ events:
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ct68uh"
-      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ct68uh"
+      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sjgpum"
+      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sjgpum"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3021,13 +3021,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ct68uh'
+        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sjgpum'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c76db
-        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_c76db.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_c76db.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ct68uh\\src.cxx
-        FAILED: CMakeFiles/cmTC_c76db.dir/src.cxx.obj 
-        "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_c76db.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_c76db.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ct68uh\\src.cxx
-        F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ct68uh\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_24c52
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_24c52.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_24c52.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sjgpum\\src.cxx
+        FAILED: CMakeFiles/cmTC_24c52.dir/src.cxx.obj 
+        "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_24c52.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_24c52.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sjgpum\\src.cxx
+        F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sjgpum\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -3043,12 +3043,12 @@ events:
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qz44fc"
-      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qz44fc"
+      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y6k2q0"
+      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y6k2q0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3062,14 +3062,14 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qz44fc'
+        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y6k2q0'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ede6e
-        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ede6e.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_ede6e.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qz44fc\\CheckFunctionExists.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_ede6e.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ede6e.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_ede6e.exe /implib:cmTC_ede6e.lib /pdb:cmTC_ede6e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_ede6e.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_ede6e.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ede6e.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_ede6e.exe /implib:cmTC_ede6e.lib /pdb:cmTC_ede6e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ede6e.dir\\CheckFunctionExists.cxx.obj /out:cmTC_ede6e.exe /implib:cmTC_ede6e.lib /pdb:cmTC_ede6e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ede6e.dir/intermediate.manifest CMakeFiles\\cmTC_ede6e.dir/manifest.res" failed (exit code 1104) with the following output:\x0d
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2cdfa
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_2cdfa.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_2cdfa.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y6k2q0\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_2cdfa.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_2cdfa.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_2cdfa.exe /implib:cmTC_2cdfa.lib /pdb:cmTC_2cdfa.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_2cdfa.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_2cdfa.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_2cdfa.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_2cdfa.exe /implib:cmTC_2cdfa.lib /pdb:cmTC_2cdfa.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2cdfa.dir\\CheckFunctionExists.cxx.obj /out:cmTC_2cdfa.exe /implib:cmTC_2cdfa.lib /pdb:cmTC_2cdfa.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2cdfa.dir/intermediate.manifest CMakeFiles\\cmTC_2cdfa.dir/manifest.res" failed (exit code 1104) with the following output:\x0d
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d\x0d
         ninja: build stopped: subcommand failed.
         
@@ -3086,12 +3086,12 @@ events:
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-psw0yt"
-      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-psw0yt"
+      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qpxpgb"
+      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qpxpgb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3105,14 +3105,14 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-psw0yt'
+        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qpxpgb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_daf6a
-        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_daf6a.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_daf6a.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-psw0yt\\CheckFunctionExists.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_daf6a.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_daf6a.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_daf6a.exe /implib:cmTC_daf6a.lib /pdb:cmTC_daf6a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_daf6a.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_daf6a.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_daf6a.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_daf6a.exe /implib:cmTC_daf6a.lib /pdb:cmTC_daf6a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_daf6a.dir\\CheckFunctionExists.cxx.obj /out:cmTC_daf6a.exe /implib:cmTC_daf6a.lib /pdb:cmTC_daf6a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_daf6a.dir/intermediate.manifest CMakeFiles\\cmTC_daf6a.dir/manifest.res" failed (exit code 1104) with the following output:\x0d
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ba104
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ba104.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_ba104.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qpxpgb\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_ba104.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ba104.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_ba104.exe /implib:cmTC_ba104.lib /pdb:cmTC_ba104.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ba104.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_ba104.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ba104.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_ba104.exe /implib:cmTC_ba104.lib /pdb:cmTC_ba104.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ba104.dir\\CheckFunctionExists.cxx.obj /out:cmTC_ba104.exe /implib:cmTC_ba104.lib /pdb:cmTC_ba104.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ba104.dir/intermediate.manifest CMakeFiles\\cmTC_ba104.dir/manifest.res" failed (exit code 1104) with the following output:\x0d
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d\x0d
         ninja: build stopped: subcommand failed.
         
@@ -3131,7 +3131,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6CoreTools"
     configs:
       -
@@ -3451,7 +3451,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6GuiTools"
     configs:
       -
@@ -3767,7 +3767,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6WidgetsTools"
     configs:
       -
@@ -4092,12 +4092,12 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ug2eca"
-      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ug2eca"
+      source: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qawuit"
+      binary: "F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qawuit"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -4111,11 +4111,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ug2eca'
+        Change Dir: 'F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qawuit'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_aa269
-        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_aa269.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_aa269.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ug2eca\\src.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_aa269.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_aa269.dir\\src.cxx.obj  /out:cmTC_aa269.exe /implib:cmTC_aa269.lib /pdb:cmTC_aa269.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5c2f4
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_5c2f4.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_5c2f4.dir\\ /FS -c F:\\Proyectos\\MadNotesCpp\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qawuit\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_5c2f4.dir --rc="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="F:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_5c2f4.dir\\src.cxx.obj  /out:cmTC_5c2f4.exe /implib:cmTC_5c2f4.lib /pdb:cmTC_5c2f4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -4134,7 +4134,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6EntryPointPrivate"
     configs:
       -
@@ -4254,7 +4254,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "program"
     variable: "WINDEPLOYQT_EXECUTABLE"
     description: "Path to a program."
@@ -4850,7 +4850,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -4974,7 +4974,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -5580,7 +5580,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -6018,7 +6018,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -6776,7 +6776,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -7527,7 +7527,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -7639,7 +7639,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6Widgets"
     configs:
       -
@@ -7748,7 +7748,7 @@ events:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6Network"
     configs:
       -
@@ -7855,7 +7855,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "Qt6"
     components:
       -
@@ -8182,7 +8182,7 @@ events:
     backtrace:
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:188 (find_program)"
       - "F:/vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:23 (add_executable)"
+      - "CMakeLists.txt:35 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_PWSH_PATH"
     description: "Path to a program."

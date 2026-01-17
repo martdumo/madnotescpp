@@ -27,6 +27,16 @@ rule CXX_COMPILER__MadNotesCpp_unscanned_Debug
 
 
 #############################################
+# Rule for compiling RC files.
+
+rule RC_COMPILER__MadNotesCpp_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:/PROGRA~1/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmcldeps.exe RC $in $DEP_FILE $out "Note: including file: " "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" ${LAUNCHER}${CODE_CHECK}"F:\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe" $DEFINES $INCLUDES $FLAGS /fo $out $in
+  description = Building RC object $out
+
+
+#############################################
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__MadNotesCpp_Debug

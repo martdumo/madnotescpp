@@ -1,65 +1,93 @@
-$readme = @"
-# 🧳 MadNotesCpp "Pro Session Edition"
+# 🧳 MadNotesCpp "Pro Edition"
 
-![C++](https://img.shields.io/badge/C++-17-blue?style=for-the-badge&logo=c%2B%2B) ![Qt](https://img.shields.io/badge/Qt-6.x-41CD52?style=for-the-badge&logo=qt) ![Status](https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge)
+![C++](https://img.shields.io/badge/C++-17-blue?style=for-the-badge&logo=c%2B%2B) ![Qt](https://img.shields.io/badge/Qt-6.x-41CD52?style=for-the-badge&logo=qt) ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge) ![Build](https://img.shields.io/badge/Build-CMake-064F8C?style=for-the-badge&logo=cmake)
 
-**MadNotesCpp** es un editor de Markdown/HTML nativo diseñado para la velocidad. Esta versión se centra en la **Persistencia de Sesión**: el programa recuerda exactamente dónde estabas (carpeta y archivo) al cerrar, eliminando la fricción de "abrir y buscar".
+**MadNotesCpp** es un gestor de notas y bóveda personal (Personal Vault) diseñado bajo la premisa de **Alto Rendimiento** y **Fidelidad Visual**.
 
----
-
-## 🌟 Nuevas Características (v2.0)
-
-### 1. Persistencia de Sesión Inteligente (`QSettings`)
-Olvídate de configurar un "Archivo Home" manual.
-- **Auto-Save de Estado:** Al cerrar la ventana, se guarda la ruta del Vault actual y el archivo que estabas editando en el Registro del Sistema.
-- **Restauración Instantánea:** Al abrir la app, apareces exactamente donde lo dejaste.
-- **Fallback:** Si es la primera vez, busca automáticamente `Home.html` o inicia en blanco.
-
-### 2. Arquitectura de Zoom Global
-Hemos movido la lógica de Zoom del editor (`SmartTextEdit`) a la ventana principal (`MainWindow`).
-- **Shortcuts Globales:** `Ctrl +` y `Ctrl -` están registrados a nivel de aplicación, intentando capturar el evento sin importar qué panel tenga el foco.
-- **Implementación:** Utiliza la API nativa de `viewport()->scale()` de Qt (aunque sigue siendo un área de mejora activa).
-
-### 3. File Guard (Protección de Memoria)
-- **Umbral de Seguridad:** Si intentas abrir un archivo > 5MB, el sistema intercepta la carga y solicita confirmación para evitar bloqueos de la UI (Main Thread freeze).
+A diferencia de las soluciones basadas en Electron (como Obsidian), este editor ha sido desarrollado nativamente en C++ para ofrecer una latencia cercana a cero, un consumo de recursos mínimo y una experiencia de escritura fluida en cualquier sistema operativo.
 
 ---
 
-## 🛠️ Controles y Atajos
+## 🌟 Características Principales
 
-| Acción | Atajo | Descripción |
-| :--- | :--- | :--- |
-| **Nuevo** | `Ctrl + N` | Crear nota nueva en el directorio actual. |
-| **Guardar** | `Ctrl + S` | Guardado atómico (SafeSave). |
-| **Zoom In** | `Ctrl + +` | Aumentar escala de vista (Experimental). |
-| **Zoom Out** | `Ctrl + -` | Reducir escala de vista (Experimental). |
-| **Reset Zoom**| `Ctrl + 0` | Volver a tamaño original. |
-| **Imagen** | `Click Derecho` | Menú contextual para redimensionar (25%, 50%, Full). |
+### 🚀 Flujo de Trabajo "Wiki"
+- **Wiki-Links Activos:** Escribe \`[[Concepto]]\` y el sistema lo detectará. Haz clic para navegar o crear la nota automáticamente.
+- **Navegación Histórica:** Botones Atrás/Adelante reales para no perderte en tu grafo de conocimiento.
 
----
+### ⚡ Motor Nativo
+- **Smart Paste:** Pega imágenes desde el portapapeles o la web; se guardan localmente y se optimizan automáticamente.
+- **Búsqueda Full-Text:** Encuentra cualquier texto dentro de tus notas en milisegundos gracias al indexado en memoria.
+- **Persistencia de Sesión:** Cierra la app y vuélvela a abrir; estarás exactamente en el mismo archivo y carpeta.
 
-## 🐛 Known Issues (Sinceridad Técnica)
-
-Este proyecto sigue una metodología de desarrollo acelerada ("Vibe Coding"). Aunque la arquitectura Core es sólida, hay detalles de UI en pulido:
-
-1.  **Inconsistencia del Zoom:** En algunas configuraciones de Windows/DPI, el `QTextEdit` ignora los comandos de escalado o pelean contra el CSS interno del HTML pegado.
-2.  **Pegado Web:** Se prioriza la velocidad. Las imágenes copiadas directamente (Bitmap) funcionan perfecto, pero el HTML con referencias remotas complejas puede no renderizarse si no se descargan localmente.
+### 🛡️ Seguridad
+- **SafeSave:** Escritura atómica (`QSaveFile`) que previene la corrupción de datos.
+- **File Guard:** Alerta preventiva al intentar abrir archivos masivos (>5MB).
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## 🛠️ Guía de Compilación (Build)
 
-- **src/ui/MainWindow:** Orquestador de Sesión, Menús y Acciones Globales.
-- **src/editor/SmartTextEdit:** Manejo de eventos de Mouse (Links, Context Menu).
-- **src/core/VaultManager:** I/O, Búsqueda Full-Text y Caché.
-- **src/core/DocumentArchitect:** Buffer Dual y Guardado Seguro.
+MadNotesCpp utiliza **CMake**, lo que garantiza una compilación idéntica en Windows y Linux.
 
-## ✍️ Autor & Metodología
+### 🐧 Linux (Arch / Manjaro)
 
-Desarrollado mediante **Iteración Asistida por IA**.
-El código refleja una evolución desde scripts básicos de Python hacia una arquitectura C++ modular, priorizando la funcionalidad sobre la perfección académica.
+El código "vuela" en Linux. Sigue estos pasos para compilarlo nativamente:
+
+1.  **Instalar Dependencias:**
+    \`\`\`bash
+    sudo pacman -S --needed base-devel cmake qt6-base qt6-5compat qt6-svg git
+    \`\`\`
+
+2.  **Compilar:**
+    \`\`\`bash
+    # Clonar repo
+    git clone https://github.com/martdumo/madnotescpp.git
+    cd madnotescpp
+
+    # Configurar y Construir
+    mkdir build && cd build
+    cmake ..
+    make -j$(nproc)
+    \`\`\`
+
+3.  **Ejecutar:**
+    \`\`\`bash
+    ./MadNotesCpp
+    \`\`\`
+
+### 🪟 Windows 11 (Visual Studio 2022)
+
+1.  **Requisitos:** Tener instalado Visual Studio con el workload "Desarrollo para el escritorio con C++" y **Qt 6** (vía instalador online o vcpkg).
+2.  **Abrir Proyecto:** Abre la carpeta raíz en Visual Studio. CMake debería autodetectarse.
+3.  **Configurar:** Selecciona \`x64-Release\` en la barra superior.
+4.  **Compilar:** Presiona \`Ctrl + Shift + B\`.
+5.  **Ejecutable:** Lo encontrarás en \`out/build/x64-Release/MadNotesCpp.exe\`.
+
+---
+
+## 📦 Despliegue (Release)
+
+Para generar un instalador o una versión portable en Windows:
+
+1.  Asegúrate de compilar en **Release**.
+2.  Ejecuta el script de automatización incluido:
+    \`\`\`powershell
+    .\deploy_windows.ps1
+    \`\`\`
+3.  Esto generará una carpeta \`MadNotes_Portable\` con todas las DLLs necesarias.
+4.  (Opcional) Usa el script \`setup_script.iss\` con **Inno Setup** para crear el instalador \`.exe\`.
+
+---
+
+## 🤖 Metodología: "Vibecoding"
+
+Este proyecto fue desarrollado utilizando una arquitectura asistida por IA (Vibe Architect), siguiendo principios estrictos:
+- **Modularidad:** Componentes desacoplados (`VaultManager`, `DocumentArchitect`).
+- **Iteración Atómica:** Ciclos de desarrollo cortos con verificación de compilación constante.
+- **Sinceridad Técnica:** Priorización de funcionalidad robusta sobre complejidad innecesaria.
+
+## ✍️ Autor
+
+Desarrollado por **Martín Dumont** (`@martdumo`).
 
 *License: MIT*
-@"
-$readme | Out-File -Encoding utf8 "README.md"
-Write-Host "✅ README.md actualizado con la realidad del proyecto."
