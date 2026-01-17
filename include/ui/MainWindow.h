@@ -25,6 +25,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+protected:
+    void closeEvent(QCloseEvent *event) override;
+
 private slots:
     // Core Actions
     void createNewNote();

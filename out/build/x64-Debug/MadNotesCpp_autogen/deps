@@ -113,6 +113,7 @@ MadNotesCpp_autogen/timestamp: \
 	F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/4.1.1-msvc1/CMakeCXXCompiler.cmake \
 	F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/4.1.1-msvc1/CMakeRCCompiler.cmake \
 	F:/Proyectos/MadNotesCpp/out/build/x64-Debug/CMakeFiles/4.1.1-msvc1/CMakeSystem.cmake \
+	F:/Proyectos/MadNotesCpp/resources.qrc \
 	F:/Proyectos/MadNotesCpp/src/core/DocumentArchitect.cpp \
 	F:/Proyectos/MadNotesCpp/src/core/VaultManager.cpp \
 	F:/Proyectos/MadNotesCpp/src/editor/CustomTextDocument.cpp \

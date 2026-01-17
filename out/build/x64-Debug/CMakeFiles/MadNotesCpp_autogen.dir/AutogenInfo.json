@@ -381,7 +381,8 @@
 		"F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-debug.cmake",
 		"F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
 		"F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
-		"F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake"
+		"F:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake",
+		"F:/Proyectos/MadNotesCpp/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "F:/Proyectos/MadNotesCpp",
 	"CROSS_CONFIG" : false,

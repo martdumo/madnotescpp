@@ -2,6 +2,9 @@
 #include "core/VaultManager.h"
 #include <QSaveFile>
 #include <QTextStream>
+#include <QFileInfo>
+#include <QMessageBox>
+#include <QDebug>
 
 DocumentArchitect::DocumentArchitect(VaultManager *vault, QObject *parent)
     : QObject(parent), m_vault(vault), m_isModified(false)
@@ -10,9 +13,21 @@ DocumentArchitect::DocumentArchitect(VaultManager *vault, QObject *parent)
 
 QString DocumentArchitect::loadDocument(const QString &fileName)
 {
+    QString fullPath = m_vault->vaultPath() + "/" + fileName;
+    QFileInfo info(fullPath);
+    
+    // --- FILE GUARD (Protección Archivos Gigantes) ---
+    qint64 sizeMB = info.size() / (1024 * 1024);
+    if (sizeMB > 5) { // Limite flexible de 5MB
+        QMessageBox::StandardButton reply;
+        reply = QMessageBox::warning(nullptr, "Archivo Pesado", 
+            QString("El archivo '%1' pesa %2 MB.\nAbrirlo podría ralentizar la aplicación.\n¿Desea continuar?").arg(fileName).arg(sizeMB),
+            QMessageBox::Yes | QMessageBox::No);
+            
+        if (reply == QMessageBox::No) return QString();
+    }
+
     m_currentFile = fileName;
-    // Aquí podríamos convertir MD a HTML si fuera necesario.
-    // Por ahora, asumimos que VaultManager devuelve el contenido crudo.
     m_rawBuffer = m_vault->readNote(fileName); 
     m_isModified = false;
     return m_rawBuffer;
